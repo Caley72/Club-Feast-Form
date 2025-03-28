@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    background-color: #eee;
+    color: #444;
+}
+
+.form{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form{
+    border: 2px solid #2c2c2c;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.link a{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    border: 2px solid #161616;
+    transition: all .2s ease-in-out;
+
+}
+
+.link a:hover{
+    background-color: #ce1b1b;
+    color: #eee;
+    transform: translateY(-5px) scale(1.05);   
+
+}
