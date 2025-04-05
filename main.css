@@ -48,3 +48,12 @@ form{
     transform: translateY(-5px) scale(1.05);   
 
 }
+
+.IMg{
+    align-self: center;
+    justify-self: center;
+    background: #444;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
